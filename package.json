@@ -2,12 +2,15 @@
   "name": "package.json",
   "version": "1.0.0",
   "description": "",
-  "main": "bot.js",
+  "main": "main.js",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/main.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "discord.js": "^14.6.0",
     "dotenv": "^16.0.3"
